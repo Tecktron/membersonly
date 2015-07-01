@@ -1,0 +1,25 @@
+{
+    "name": "tecktron/membersonly",
+    "type": "phpbb-extension",
+    "description": "Make your phpbb for members only - redirect to login",
+    "homepage": "http://github.com/Tecktron/membersonly",
+    "version": "0.1.0",
+    "time": "2015-06-05",
+    "license": "GPL-2.0",
+    "authors": [{
+        "name": "Tecktron",
+        "email": "pleasedontemailme@tecktron.net",
+        "homepage": "http://tecktron.net",
+        "role": "Thingy"
+    }],
+    "require": {
+        "php": ">=5.3.3",
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "display-name": "Members Only",
+        "soft-require" : {
+            "phpbb/phpbb": ">=3.1.0"
+        }
+    }
+}

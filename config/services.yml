@@ -1,0 +1,10 @@
+services:
+    tecktron.membersonly:
+        class: tecktron\membersonly\event\listener
+        arguments:
+            - @user
+            - @request
+            - %core.root_path%
+            - %core.php_ext%
+        tags:
+            - { name: event.listener }
